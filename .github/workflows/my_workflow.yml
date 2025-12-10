@@ -1,5 +1,5 @@
-name: Parallel Workflow
-on: workflow_dispatch
+name: Parallel_Workflow
+on: push
 jobs:
 runs-on: ubuntu-latest
   first-job:
@@ -13,4 +13,4 @@ runs-on: ubuntu-latest
       - name: Printing Statement3
         run: echo "Today I'm larning GitHub-Actions"
       - name: Printing Statement4
-        run: echo "All is Well"
+        run: echo "All is not Well"
