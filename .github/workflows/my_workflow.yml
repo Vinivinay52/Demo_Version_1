@@ -1,7 +1,7 @@
 name: Parallel_Workflow
 on: push
-jobs:
 runs-on: ubuntu-latest
+jobs:
   first-job:
     steps: 
       - name: Printing Statement1
