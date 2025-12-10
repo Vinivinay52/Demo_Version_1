@@ -1,15 +1,14 @@
 name: Parallel Workflow
 on: workflow_dispatch
 jobs:
+runs-on: ubuntu-latest
   first-job:
-    runs-on: ubuntu-latest
     steps: 
       - name: Printing Statement1
         run: echo "Hello GitHub Actions!"
       - name: Printing Statement2
         run: echo "Good Morning!"
   second-job:
-    runs-on: ubuntu-latest
     steps: 
       - name: Printing Statement3
         run: echo "Today I'm larning GitHub-Actions"
